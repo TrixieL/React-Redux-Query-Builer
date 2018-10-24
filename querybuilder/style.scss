@@ -1,0 +1,148 @@
+.queryBuilder {
+  border: 1px solid #cecece;
+  background-color: #f1ecf1;
+  height: auto;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+
+  select {
+    height: 30px;
+    outline: 0;
+  }
+
+  .query {
+    border: 1px solid #d6c0d0;
+    background: #caa4b7;
+    padding: 20px;
+    position: relative;
+    border-radius: 20px;
+
+    &.mother {
+      background: #e1cad7;
+    }
+  }
+
+  .confirm {
+    color: #38c538;
+    margin: 20px;
+    font-weight: 500;
+
+    &.note {
+      font-weight: initial;
+      display: block;
+      color: #cc0707;
+      margin: 0;
+      padding: 20px 20px 0;
+      font-size: 12px;
+      background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='iso-8859-1'?%3E%3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Capa_1' x='0px' y='0px' width='512px' height='512px' viewBox='0 0 401.999 401.998' style='enable-background:new 0 0 401.999 401.998;' xml:space='preserve'%3E%3Cg%3E%3Cg%3E%3Cpath d='M237.543,301.499h-73.091c-4.95,0-9.233,1.811-12.851,5.425c-3.615,3.617-5.424,7.897-5.424,12.847v63.953 c0,4.948,1.809,9.232,5.424,12.854c3.621,3.61,7.9,5.421,12.851,5.421h73.097c4.942,0,9.227-1.811,12.848-5.421 c3.61-3.621,5.42-7.905,5.42-12.854v-63.953c0-4.949-1.813-9.229-5.427-12.847C246.773,303.307,242.488,301.499,237.543,301.499z' fill='%23cc0707'/%3E%3Cpath d='M259.383,5.424C255.862,1.812,251.628,0,246.676,0h-91.359c-4.948,0-9.18,1.812-12.703,5.424 c-3.521,3.617-5.186,7.902-4.996,12.85l7.992,219.265c0.19,4.948,2.139,9.236,5.852,12.847c3.711,3.621,8.041,5.431,12.991,5.431 h73.097c4.942,0,9.271-1.81,12.991-5.431c3.71-3.61,5.653-7.898,5.852-12.847l7.987-219.265 C264.578,13.326,262.905,9.045,259.383,5.424z' fill='%23cc0707'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: left 20px;
+      background-size: 14px;
+    }
+  }
+
+
+  .conjuctionHolder {
+    display: inline-block;
+  }
+
+  .generateBtn {
+    outline: 0;
+    margin-top: 20px;
+    height: 35px;
+    width: 205px;
+    padding: 5px 18px 5px 5px;
+    border-radius: 30px;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="9.41" height="14" fill="none" stroke="white" stroke-width="2px" fill-rule="evenodd" viewBox="0 0 9.41 14"><path id="elements_arrow-cta.svg" data-name="elements/arrow-cta.svg" class="arrow-cta" d="M4106.25,694.01l5.99,5.989-5.99,5.99" transform="translate(-4103.84 -693)"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 6px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #65987d;
+    border: #65987d;
+    color: #fff;
+  }
+  .ruleGroupBtn {
+    display: inline-block;
+    margin-left: 30px;
+
+    button {
+      outline: 0;
+      margin: 5px;
+      height: 35px;
+      width: 115px;
+      background-color: #98657c;
+      border: #98657c;
+      color: #fff;
+      padding: 5px 20px;
+      border-radius: 30px;
+      padding: 5px 20px 5px 5px;
+      background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='iso-8859-1'?%3E%3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Capa_1' x='0px' y='0px' width='512px' height='512px' viewBox='0 0 401.994 401.994' style='enable-background:new 0 0 401.994 401.994;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M394,154.175c-5.331-5.33-11.806-7.994-19.417-7.994H255.811V27.406c0-7.611-2.666-14.084-7.994-19.414 C242.488,2.666,236.02,0,228.398,0h-54.812c-7.612,0-14.084,2.663-19.414,7.993c-5.33,5.33-7.994,11.803-7.994,19.414v118.775 H27.407c-7.611,0-14.084,2.664-19.414,7.994S0,165.973,0,173.589v54.819c0,7.618,2.662,14.086,7.992,19.411 c5.33,5.332,11.803,7.994,19.414,7.994h118.771V374.59c0,7.611,2.664,14.089,7.994,19.417c5.33,5.325,11.802,7.987,19.414,7.987 h54.816c7.617,0,14.086-2.662,19.417-7.987c5.332-5.331,7.994-11.806,7.994-19.417V255.813h118.77 c7.618,0,14.089-2.662,19.417-7.994c5.329-5.325,7.994-11.793,7.994-19.411v-54.819C401.991,165.973,399.332,159.502,394,154.175z' fill='%23FFFFFF'/%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-size: 10px;
+      background-position: right 14px center;
+    }
+  }
+
+  .ruleHolder {
+    position: relative;
+    height: 100%;
+    background-color: #ebdde5;
+    border: 1px solid #ebdfe8;
+    margin: 10px 0;
+    border-radius: 10px;
+
+    select {
+      margin: 10px;
+    }
+
+    .rule {
+      max-width: 80%;
+    }
+  }
+
+  .query.child {
+    margin: 10px 0;
+    background-color: #b990a5;
+    border: #b990a5;
+
+    .ruleHolder {
+      background-color: #dac4cf;
+      border: none;
+    }
+  }
+
+  .removeBtn {
+    outline: 0;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    margin: 0 1%;
+    width: 95px;
+    height: 35px;
+    background-color: #9e4949;
+    color: #fff;
+    border: 1px solid #9e4949;
+    padding: 5px 16px 5px 5px;
+    border-radius: 50px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='iso-8859-1'?%3E%3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Capa_1' x='0px' y='0px' width='512px' height='512px' viewBox='0 0 791.957 791.957' style='enable-background:new 0 0 791.957 791.957;' xml:space='preserve'%3E%3Cg%3E%3Cg id='_x35_'%3E%3Cg%3E%3Cpath d='M585.82,235.876H209.179c-39.621,0-71.728,32.082-71.728,71.703l38.865,412.675c0,39.597,32.131,71.703,71.751,71.703 h304.89c39.62,0,71.751-32.106,71.751-71.703l32.888-412.675C657.547,267.958,625.441,235.876,585.82,235.876z M301.839,666.41 c0,19.786-16.053,35.814-35.864,35.814c-19.81,0-35.863-16.053-35.863-35.814V343.467c0-19.786,16.053-35.888,35.863-35.888 c19.811,0,35.864,16.102,35.864,35.888V666.41L301.839,666.41z M427.385,666.41c0,19.786-16.053,35.814-35.863,35.814 c-19.81,0-35.863-16.053-35.863-35.814V343.467c0-19.786,16.053-35.888,35.863-35.888c19.811,0,35.863,16.102,35.863,35.888 V666.41z M552.933,666.41c0,19.786-16.054,35.814-35.864,35.814s-35.863-16.053-35.863-35.814V343.467 c0-19.786,16.053-35.888,35.863-35.888s35.864,16.102,35.864,35.888V666.41z M190.027,200.013L624.27,88.299 c23.981-6.148,38.425-30.594,32.252-54.576c-6.172-23.982-30.618-38.425-54.6-32.326L468.446,35.748 c-12.369-18.347-35.205-27.983-57.845-22.177l-52.088,13.443c-22.641,5.831-37.986,25.275-39.987,47.306l-150.847,38.84 c-23.982,6.148-38.401,30.594-32.253,54.576C141.599,191.742,166.045,206.136,190.027,200.013z' fill='%23FFFFFF'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+
+    &.group {
+      top: 20px;
+      right: 5px;
+      width: 135px;
+      background-color: #6b0e0e;
+      border: 1px solid #6b0e0e;
+      padding: 5px 20px 5px 5px;
+      background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='iso-8859-1'?%3E%3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Capa_1' x='0px' y='0px' width='512px' height='512px' viewBox='0 0 791.957 791.957' style='enable-background:new 0 0 791.957 791.957;' xml:space='preserve'%3E%3Cg%3E%3Cg id='_x35_'%3E%3Cg%3E%3Cpath d='M585.82,235.876H209.179c-39.621,0-71.728,32.082-71.728,71.703l38.865,412.675c0,39.597,32.131,71.703,71.751,71.703 h304.89c39.62,0,71.751-32.106,71.751-71.703l32.888-412.675C657.547,267.958,625.441,235.876,585.82,235.876z M301.839,666.41 c0,19.786-16.053,35.814-35.864,35.814c-19.81,0-35.863-16.053-35.863-35.814V343.467c0-19.786,16.053-35.888,35.863-35.888 c19.811,0,35.864,16.102,35.864,35.888V666.41L301.839,666.41z M427.385,666.41c0,19.786-16.053,35.814-35.863,35.814 c-19.81,0-35.863-16.053-35.863-35.814V343.467c0-19.786,16.053-35.888,35.863-35.888c19.811,0,35.863,16.102,35.863,35.888 V666.41z M552.933,666.41c0,19.786-16.054,35.814-35.864,35.814s-35.863-16.053-35.863-35.814V343.467 c0-19.786,16.053-35.888,35.863-35.888s35.864,16.102,35.864,35.888V666.41z M190.027,200.013L624.27,88.299 c23.981-6.148,38.425-30.594,32.252-54.576c-6.172-23.982-30.618-38.425-54.6-32.326L468.446,35.748 c-12.369-18.347-35.205-27.983-57.845-22.177l-52.088,13.443c-22.641,5.831-37.986,25.275-39.987,47.306l-150.847,38.84 c-23.982,6.148-38.401,30.594-32.253,54.576C141.599,191.742,166.045,206.136,190.027,200.013z' fill='%23FFFFFF'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3Cg%3E%3C/g%3E%3C/svg%3E");
+      background-size: 15px;
+      background-repeat: no-repeat;
+      background-position: right 10px center;
+    }
+  }
+}
